@@ -1,0 +1,36 @@
+Caso de Teste 01: Tempo de Carregamento da Página
+Objetivo: Verificar se o site carrega em menos de 3 segundos.
+
+Pré-condição: Nenhuma, apenas acesso à internet.
+
+Passos:
+
+Acessar o site usando um navegador.
+Analisar o tempo de carregamento com Lighthouse e GTmetrix.
+Registrar os resultados.
+Resultado Esperado: O site carrega em menos de 3 segundos.
+
+Caso de Teste 02: Efeito Parallax no Scroll
+Objetivo: Avaliar se o efeito Parallax afeta a fluidez da página.
+
+Pré-condição: O site deve estar aberto em um navegador.
+
+Passos:
+
+Rolar a página para cima e para baixo.
+Observar se há travamentos ou atrasos.
+Medir o tempo de resposta do scroll com Chrome DevTools.
+Resultado Esperado: O efeito Parallax deve ser suave e não impactar a navegação.
+
+Caso de Teste 03: Carregamento do Google Maps
+Objetivo: Testar se o mapa carrega corretamente e sem afetar o desempenho do site.
+
+Pré-condição: O site deve estar carregado.
+
+Passos:
+
+Acessar a seção "Contatos".
+Verificar o tempo de carregamento do Google Maps.
+Analisar se o site continua responsivo durante o carregamento do mapa.
+Resultado Esperado: O Google Maps deve carregar de forma assíncrona, sem travamentos.
+
