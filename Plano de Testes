@@ -1,0 +1,32 @@
+1. Objetivo
+O objetivo dos testes é avaliar a performance do website, garantindo que ele seja rápido e responsivo para oferecer uma experiência fluida aos usuários.
+
+2. Escopo
+
+Testar o tempo de carregamento da página.
+Avaliar o impacto das imagens e do efeito Parallax na performance.
+Testar a navegação entre as seções.
+Avaliar o desempenho do carregamento do Google Maps embutido.
+Testar a responsividade em diferentes dispositivos.
+3. Ferramentas Utilizadas
+
+Google Lighthouse (para análise de performance)
+GTmetrix (para avaliar tempo de carregamento e otimizações)
+WebPageTest (para análise detalhada do carregamento)
+Chrome DevTools (para medir tempo de execução de scripts e renderização)
+4. Critérios de Aceitação
+
+O site deve carregar em menos de 3 segundos em conexões de boa qualidade (Wi-Fi e 4G).
+O efeito Parallax não deve impactar negativamente a fluidez do scroll.
+As imagens devem ser otimizadas para não afetar o carregamento.
+O site deve ser navegável e interativo em no máximo 1 segundo após o carregamento.
+O Google Maps deve ser carregado de forma assíncrona para não bloquear a página.
+Cenários de Teste
+
+ID	Cenário	Entrada	Resultado Esperado
+CT01	Testar tempo de carregamento inicial	Acessar o site pela primeira vez	O site carrega em menos de 3s
+CT02	Testar a navegação entre as seções	Clicar nos links do menu e rodapé	A página rola suavemente para a seção correspondente
+CT03	Avaliar o impacto das imagens e efeito Parallax	Scroll na página analisando o desempenho	O efeito Parallax não deve causar travamentos
+CT04	Testar carregamento do Google Maps	Abrir a seção de localização	O mapa carrega de forma assíncrona sem impactar o restante do site
+CT05	Avaliar desempenho em dispositivos móveis	Acessar o site via smartphone/tablet	O site mantém um tempo de carregamento abaixo de 3s
+CT06	Analisar impacto de múltiplos acessos simultâneos	Simular 100 usuários acessando o site ao mesmo tempo	O site mantém resposta rápida sem quedas de desempenho
