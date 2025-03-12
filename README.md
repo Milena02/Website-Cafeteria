@@ -1,83 +1,58 @@
-# ☕  Website para uma Cafeteria
+# Website para uma Cafeteria
 
-Este repositório contém o código-fonte, um website desenvolvido para uma cafeteria. O site apresenta informações sobre a loja, incluindo horários de funcionamento, localização e uma navegação interativa.
-
-## 📚 Descrição do Projeto
-
-O objetivo do projeto foi criar uma página web responsiva e interativa, com seis seções principais:
-
-1. **Topo** - Contém links de navegação para diferentes partes do site e é fixado no topo da página.
-2. **Banner** - Apresenta uma imagem de destaque para atrair a atenção do usuário.
-3. **Informações** - Possui cinco subseções alternando entre conteúdo textual e imagens.
-4. **Contatos** - Exibe informações de contato e um mapa com a localização da cafeteria.
-5. **Horários** - Informações sobre o funcionamento da cafeteria.
-6. **Rodapé** - Contém links de navegação e uma interação visual de flutuação.
-
-## 🔍 Funcionalidades
-
-- **Navegação Suave:** Links do topo e rodapé direcionam o usuário para seções específicas da página.
-- **Topo Fixo:** Mantém-se sempre visível, mesmo ao rolar a página.
-- **Rodapé Flutuante:** Efeito visual sobrepondo a seção de horários.
-- **Integração com Google Maps:** Exibe localização exata da cafeteria.
-- **Efeito Parallax:** Aplica uma ilusão de profundidade nas imagens de fundo.
+Este repositório contém o desenvolvimento de um site para uma cafeteria, incluindo uma lista informativa com os horários de funcionamento e um efeito parallax nas imagens de fundo.
 
 ## 📚 Estrutura do Projeto
 
 ```
-MiniMundo/
-├── index.html       # Estrutura HTML do site
-├── styles.css       # Estilos e layout da página
-├── script.js        # Funcionalidades interativas
-├── assets/         
-│   ├── images/     # Imagens utilizadas no site
-│   ├── fonts/      # Fontes utilizadas
-├── README.md        # Documentação do projeto
+📚 cypress
+    ├️ cypress.config.js  # Configuração do Cypress
+🌄 img
+    ├️ cafeteria.jpg
+    ├️ logo.ico
+    ├️ logo.png
+    ├️ parallax-imagem1.png
+    ├️ parallax-imagem2.jpg
+    ├️ parallax-imagem3.jpg
+    ├️ parallax-imagem4.png
+    ├️ seta-para-cima.png
+📄 Casos de Testes
+📄 Plano de Testes
+📄 README.md
+📄 estilo.css
+📄 index.html
 ```
 
-## 👩‍💻 Tecnologias Utilizadas
+## 🏢 Estrutura da Página
 
-- **HTML5** - Estrutura do site
-- **CSS3** - Estilização e efeitos visuais (incluindo Parallax)
-- **JavaScript** - Interatividade e navegação suave
-- **Google Maps API** - Integração para exibição da localização
+O site foi dividido nas seguintes seções:
+- **Topo** (fixo no topo da página)
+- **Banner**
+- **Informações** (com cinco subseções)
+- **Contatos**
+- **Horários**
+- **Rodapé** (com link flutuante)
 
-## 🛠️ Como Executar o Projeto
+## 🔍 Funcionalidades
+- Navegação entre as seções através de links no topo e rodapé
+- Inserção de um Google Maps para localização da cafeteria
+- Efeito Parallax nas imagens de fundo
+- Layout responsivo
 
-1. Clone este repositório:
-   ```sh
-   git clone https://github.com/seu-usuario/minimundo-cafeteria.git
-   ```
-2. Acesse a pasta do projeto:
-   ```sh
-   cd minimundo-cafeteria
-   ```
-3. Abra o arquivo `index.html` em seu navegador preferido.
+## 👨‍💻 Tecnologias Utilizadas
+- **HTML5, CSS3** (estrutura e estilização da página)
+- **JavaScript** (efeitos interativos e navegação)
+- **Cypress** (testes automatizados para validação do site)
 
-## 🎨 Paleta de Cores
+## 💪 Como Contribuir
+1. Faça um fork do repositório
+2. Crie uma branch (`feature/nova-feature`)
+3. Faça suas alterações e testes
+4. Envie um pull request
 
-- 🌟 **#c4a47c** (Dourado)
-- ⭐ **#fff** (Branco)
-- ⚫ **#000000** (Preto)
-- 🌟 **#604829** (Marrom Escuro)
-- 🌟 **#666666** (Cinza Escuro)
-- 🌟 **#ACACAC** (Cinza Claro)
-
-## 📚 Fontes Utilizadas
-
-- **Fraunces**
-- **Oswald**
-- **Lato**
-
-## 📊 Melhorias Futuras
-
-- Implementar responsividade para dispositivos móveis.
-- Adicionar um sistema de pedidos online.
-- Melhorar a acessibilidade da página.
-
-## 💌 Contato
-
-Caso tenha alguma sugestão ou queira contribuir com o projeto, fique à vontade para entrar em contato!
+## ✅ Licença
+Este projeto está sob a licença MIT. 
 
 ---
-🌟 *Projeto desenvolvido para criar uma experiência visual e interativa para uma cafeteria!* 🌟
+🌟 *Desenvolvido para proporcionar uma melhor experiência digital para os clientes da cafeteria!* ☕
 
